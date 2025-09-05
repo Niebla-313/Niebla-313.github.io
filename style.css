@@ -40,7 +40,7 @@ a {
   margin-top: 1rem;
   color: #3CB371;
   text-decoration: none;
-  display: block;
+  /*display: block;*/
   animation: parpadear 1.5s infinite alternate;
 }
 @keyframes parpadear {
@@ -54,4 +54,7 @@ a {
   100%{
     opacity: 0.5;
   }
+}
+.link_section {
+  display: block;
 }
